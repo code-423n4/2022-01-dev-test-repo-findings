@@ -1,0 +1,9 @@
+{
+  "contest": 999999,
+  "handle": "0xsi-test",
+  "address": "0x8887d92b863acc546cd7372b4627de39548f85c4",
+  "risk": "2",
+  "title": "Test medium",
+  "issueId": 33,
+  "issueUrl": "https://github.com/code-423n4/2022-01-dev-test-repo-findings/issues/33"
+}
