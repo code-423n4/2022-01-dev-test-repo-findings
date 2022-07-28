@@ -1,0 +1,9 @@
+{
+  "contest": 999999,
+  "handle": "CaptainMango",
+  "address": "0x242abFB687141B75E4d7a271b839b2cED04bBb5d",
+  "risk": "Q",
+  "title": "QA Report",
+  "issueId": 79,
+  "issueUrl": "https://github.com/code-423n4/2022-01-dev-test-repo-findings/issues/79"
+}
