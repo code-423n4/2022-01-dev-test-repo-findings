@@ -2,4 +2,4 @@
 
 this is a test  qa report
 
-### Testing create function
+### Testing update function
