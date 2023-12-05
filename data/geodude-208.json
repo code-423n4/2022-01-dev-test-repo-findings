@@ -1,0 +1,8 @@
+{
+  "contest": 10001,
+  "handle": "geodude",
+  "risk": "2",
+  "title": "Some functions that call `Exchange.getMarkPrice` function do not check if `Exchange.getMarkPrice` function's returned `markPrice` is 0",
+  "issueId": 208,
+  "issueUrl": "https://github.com/code-423n4/2022-01-dev-test-repo-findings/issues/208"
+}
