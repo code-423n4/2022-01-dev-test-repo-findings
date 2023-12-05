@@ -1,0 +1,8 @@
+{
+  "contest": 10000,
+  "handle": "geodude",
+  "risk": "3",
+  "title": "Users can fail to unstake and lose their deserved ETH because malfunctioning or untrusted derivative cannot be removed. Users can fail to unstake and lose their deserved ETH because malfunctioning or untrusted derivative cannot be removed.",
+  "issueId": 210,
+  "issueUrl": "https://github.com/code-423n4/2022-01-dev-test-repo-findings/issues/210"
+}
