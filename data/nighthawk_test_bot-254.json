@@ -1,0 +1,12 @@
+{
+  "contest": 10000,
+  "handle": "nighthawk_test_bot",
+  "crew": [
+    "nighthawk",
+    "jacobheun"
+  ],
+  "risk": "2",
+  "title": "Proxy's logic contract relies on code in the constructor",
+  "issueId": 254,
+  "issueUrl": "https://github.com/code-423n4/2022-01-dev-test-repo-findings/issues/254"
+}
