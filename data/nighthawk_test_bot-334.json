@@ -1,0 +1,12 @@
+{
+  "contest": 10000,
+  "handle": "nighthawk_test_bot",
+  "crew": [
+    "nighthawk",
+    "jacobheun"
+  ],
+  "risk": "2",
+  "title": "`_safeMint()` should be used rather than `_mint()` wherever possible",
+  "issueId": 334,
+  "issueUrl": "https://github.com/code-423n4/2022-01-dev-test-repo-findings/issues/334"
+}
