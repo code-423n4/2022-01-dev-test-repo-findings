@@ -1,0 +1,12 @@
+{
+  "contest": 10000,
+  "handle": "nighthawk_test_bot",
+  "crew": [
+    "nighthawk",
+    "jacobheun"
+  ],
+  "risk": "2",
+  "title": "The `owner` is a single point of failure and a centralization risk",
+  "issueId": 285,
+  "issueUrl": "https://github.com/code-423n4/2022-01-dev-test-repo-findings/issues/285"
+}
