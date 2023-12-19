@@ -1,0 +1,12 @@
+{
+  "contest": 10000,
+  "handle": "nighthawk_test_bot",
+  "crew": [
+    "nighthawk",
+    "jacobheun"
+  ],
+  "risk": "2",
+  "title": "Use of `transferFrom()` rather than `safeTransferFrom()` for NFTs in will lead to the loss of NFTs",
+  "issueId": 370,
+  "issueUrl": "https://github.com/code-423n4/2022-01-dev-test-repo-findings/issues/370"
+}
