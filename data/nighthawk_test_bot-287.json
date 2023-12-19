@@ -1,0 +1,12 @@
+{
+  "contest": 10000,
+  "handle": "nighthawk_test_bot",
+  "crew": [
+    "nighthawk",
+    "jacobheun"
+  ],
+  "risk": "2",
+  "title": "Unsafe usage of `msg.value` in a loop",
+  "issueId": 287,
+  "issueUrl": "https://github.com/code-423n4/2022-01-dev-test-repo-findings/issues/287"
+}
