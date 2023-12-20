@@ -1,0 +1,12 @@
+{
+  "contest": 10000,
+  "handle": "nighthawk_test_bot",
+  "crew": [
+    "nighthawk",
+    "jacobheun"
+  ],
+  "risk": "3",
+  "title": "Calls to `get_virtual_price()` are vulnerable to read-only reentrancy",
+  "issueId": 373,
+  "issueUrl": "https://github.com/code-423n4/2022-01-dev-test-repo-findings/issues/373"
+}
