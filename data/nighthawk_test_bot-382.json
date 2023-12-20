@@ -1,0 +1,12 @@
+{
+  "contest": 10000,
+  "handle": "nighthawk_test_bot",
+  "crew": [
+    "nighthawk",
+    "jacobheun"
+  ],
+  "risk": "2",
+  "title": "Some tokens may revert when zero value transfers are made",
+  "issueId": 382,
+  "issueUrl": "https://github.com/code-423n4/2022-01-dev-test-repo-findings/issues/382"
+}
