@@ -18,4 +18,4 @@ jobs:
         with:
           github-token: ${{ secrets.LABEL_REMOVER_GITHUB_TOKEN }}
           sponsor-team-slug: "builders"
-          allowed-labels: "sponsor confirmed, sponsor disputed, sponsor acknowledged, resolved, disagree with severity"
+          allowed-labels: "sponsor confirmed,sponsor disputed,sponsor acknowledged,resolved,disagree with severity"
