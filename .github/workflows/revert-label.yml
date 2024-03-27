@@ -1,0 +1,21 @@
+name: Revert Label Changes
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  revert-label:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Revert Label Changes
+        uses: geoffchan23/label-reverter@main # Replace with your action's repository
+        with:
+          github-token: ${{ secrets.LABEL_REMOVER_GITHUB_TOKEN }}
+          sponsor-team-slug: "test-team"
+          allowed-labels: "sponsor confirmed, sponsor disputed, sponsor acknowledged, resolved, disagree with severity"
