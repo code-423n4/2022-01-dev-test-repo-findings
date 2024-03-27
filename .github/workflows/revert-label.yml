@@ -17,5 +17,5 @@ jobs:
         uses: geoffchan23/label-reverter@main # Replace with your action's repository
         with:
           github-token: ${{ secrets.LABEL_REMOVER_GITHUB_TOKEN }}
-          sponsor-team-slug: "test-team"
+          sponsor-team-slug: "builders"
           allowed-labels: "sponsor confirmed, sponsor disputed, sponsor acknowledged, resolved, disagree with severity"
