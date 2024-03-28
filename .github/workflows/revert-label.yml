@@ -10,21 +10,20 @@ on:
       - created 
       - edited
       - deleted 
-  discussion_deleted: 
-  discussion_category_changed: 
+  discussion_comment:
+    types: [deleted]
 
 jobs:
   revert-label:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
-
     steps:
       - uses: actions/checkout@v4
       - name: Revert Label Changes
-        uses: geoffchan23/label-reverter@main # Replace with your action's repository
+        uses: geoffchan23/label-reverter@main
         with:
           github-token: ${{ secrets.LABEL_REMOVER_GITHUB_TOKEN }}
           sponsor-team-slug: "2022-01-dev-test-repo-sponsors"
           allowed-labels: "sponsor confirmed, sponsor disputed, sponsor acknowledged, disagree with severity"
+      # permissions:
+      #   contents: read
+      #   pull-requests: write
