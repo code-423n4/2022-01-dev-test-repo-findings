@@ -1,10 +1,17 @@
 name: Revert Label Changes
 
 on:
-  issues:
+  issues: 
     types: [labeled, unlabeled, closed, reopened, assigned] 
   pull_request:
     types: [closed, reopened, assigned]
+  issue_comment: # For handling hidden comments
+    types: 
+      - created 
+      - edited
+      - deleted 
+  discussion_deleted: 
+  discussion_category_changed: 
 
 jobs:
   revert-label:
