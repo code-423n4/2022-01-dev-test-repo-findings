@@ -6,10 +6,7 @@ on:
   pull_request:
     types: [closed, reopened, assigned]
   issue_comment: # For handling hidden comments
-    types: 
-      - created 
-      - edited
-      - deleted 
+    types: [created, edited, deleted]
   discussion_comment:
     types: [deleted]
 
