@@ -2,7 +2,9 @@ name: Revert Label Changes
 
 on:
   issues:
-    types: [labeled,unlabeled]
+    types: [labeled, unlabeled, closed, reopened, assigned] 
+  pull_request:
+    types: [closed, reopened, assigned]
 
 jobs:
   revert-label:
