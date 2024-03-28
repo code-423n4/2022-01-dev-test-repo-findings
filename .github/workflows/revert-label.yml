@@ -1,11 +1,11 @@
-name: Revert Label Changes
+name: Repo Moderator
 
 on:
   issues: 
     types: [labeled, unlabeled, closed, reopened, assigned] 
   pull_request:
     types: [closed, reopened, assigned]
-  issue_comment: # For handling hidden comments
+  issue_comment:
     types: [created, edited, deleted]
   discussion_comment:
     types: [deleted]
@@ -16,11 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Revert Label Changes
-        uses: geoffchan23/label-reverter@main
+        uses: geoffchan23/repo-moderator@main
         with:
           github-token: ${{ secrets.LABEL_REMOVER_GITHUB_TOKEN }}
           sponsor-team-slug: "2022-01-dev-test-repo-sponsors"
           allowed-labels: "sponsor confirmed, sponsor disputed, sponsor acknowledged, disagree with severity"
-      # permissions:
-      #   contents: read
-      #   pull-requests: write
