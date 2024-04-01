@@ -5,13 +5,10 @@ on:
     types: [labeled, unlabeled, closed, reopened, assigned] 
   pull_request:
     types: [closed, reopened, assigned]
-  issue_comment:
-    types: [created, edited, deleted]
-  discussion_comment:
-    types: [deleted]
 
 jobs:
-  revert-label:
+  revert-action:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
