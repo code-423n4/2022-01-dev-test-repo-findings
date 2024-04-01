@@ -2,9 +2,9 @@ name: Repo Moderator
 
 on:
   issues: 
-    types: [labeled, unlabeled, closed, reopened, assigned] 
+    types: [labeled, unlabeled, closed, reopened, assigned, unassigned] 
   pull_request:
-    types: [closed, reopened, assigned]
+    types: [closed, reopened, assigned, unassigned]
 
 jobs:
   revert-action:
