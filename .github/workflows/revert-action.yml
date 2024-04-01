@@ -8,12 +8,10 @@ on:
 
 jobs:
   revert-action:
-    if: github.actor != 'github-actions[bot]'
+    if: github.actor != 'C4-Staff'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Print Username
-        run: ${{ github.actor }}
       - name: Revert Label Changes
         uses: geoffchan23/repo-moderator@main
         with:
