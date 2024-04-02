@@ -17,4 +17,4 @@ jobs:
         with:
           github-token: ${{ secrets.LABEL_REMOVER_GITHUB_TOKEN }}
           sponsor-team-slug: "2022-01-dev-test-repo-sponsors"
-          allowed-labels: "sponsor confirmed, sponsor disputed, sponsor acknowledged, disagree with severity"
+          allowed-labels: "sponsor confirmed, sponsor disputed, sponsor acknowledged"
