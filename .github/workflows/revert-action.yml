@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Revert Label Changes
-        uses: geoffchan23/repo-moderator@main
+      - name: Repo Moderator
+        uses: code-423n4/repo-moderator@main
         with:
           github-token: ${{ secrets.LABEL_REMOVER_GITHUB_TOKEN }}
           sponsor-team-slug: "2022-01-dev-test-repo-sponsors"
