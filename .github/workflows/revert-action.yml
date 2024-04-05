@@ -11,10 +11,13 @@ jobs:
     if: github.actor != 'C4-Staff'
     runs-on: ubuntu-latest
     steps:
+      - name: Check out repository
       - uses: actions/checkout@v4
-      - name: Repo Moderator
-        uses: code-423n4/repo-moderator@main
         with:
-          github-token: ${{ secrets.LABEL_REMOVER_GITHUB_TOKEN }}
+          repository: code-423n4/repo-moderator
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           sponsor-team-slug: "2022-01-dev-test-repo-sponsors"
           allowed-labels: "sponsor confirmed, sponsor disputed, sponsor acknowledged"
+          path: ./.github/actions/repo-moderator
+      - name: Repo Moderator
+        uses: ./.github/actions/repo-moderator
