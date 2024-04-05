@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Repo Moderator
-        uses: code-423n4/repo-moderator@main
+        uses: repo-moderator@main
         with:
           repository: code-423n4/repo-moderator
           github-token: ${{ secrets.GITHUB_TOKEN }}
