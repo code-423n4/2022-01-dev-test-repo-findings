@@ -12,11 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Repo Moderator
+        uses: code-423n4/repo-moderator
         with:
           repository: code-423n4/repo-moderator
           github-token: ${{ secrets.GITHUB_TOKEN }}
           sponsor-team-slug: "2022-01-dev-test-repo-sponsors"
           allowed-labels: "sponsor confirmed, sponsor disputed, sponsor acknowledged"
           path: ./.github/actions/repo-moderator
-      - name: Repo Moderator
-        uses: ./.github/actions/repo-moderator
