@@ -15,6 +15,6 @@ jobs:
       - name: Repo Moderator
         uses: code-423n4/repo-moderator@main
         with:
-          github-token: ${{ secrets.LABEL_REMOVER_GITHUB_TOKEN }}
+          github-token: ${{ secrets.ACTIONS_TOKEN }}
           sponsor-team-slug: "2022-01-dev-test-repo-sponsors"
           allowed-labels: "sponsor confirmed, sponsor disputed, sponsor acknowledged"
